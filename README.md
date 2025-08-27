@@ -1,2 +1,4 @@
 # EDA
-Aquí se encuentran las prácticas de EDA I
+Estructura de Datos y Algoritmos I
+David Hernández Hernández
+Grupo 03
