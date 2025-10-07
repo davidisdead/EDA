@@ -1,7 +1,1 @@
-#include <stdio.h>
-
-void main()
-{
-    printf("Hola xd");
-    return 0;
-}
+    //This is a test
