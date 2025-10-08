@@ -68,7 +68,6 @@ int main()
             free(cal); // Liberar la memoria anterior antes de salir
             return 0;
         }
-
         cal = tmp; //Asignar el nuevo bloque de memoria
 
         //Capturar las nuevas calificaciones
