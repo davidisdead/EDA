@@ -1,6 +1,3 @@
-// lista_circular.c
-// Demostracion de malloc, calloc, realloc y free con enteros
-
 #include <stdio.h>
 #include <stdlib.h>
 
