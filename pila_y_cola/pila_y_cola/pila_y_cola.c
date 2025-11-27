@@ -3,9 +3,7 @@
 
 #define CAPACIDAD 5
 
-// =========================
 // Estructuras
-// =========================
 typedef struct {
     int datos[CAPACIDAD];
     int tope; // indice del elemento en la cima; -1 si vacia
@@ -18,9 +16,7 @@ typedef struct {
     int cantidad; // para manejo sencillo de estado
 } Cola;
 
-// =========================
 // Prototipos Pila
-// =========================
 void inicializarPila(Pila *p);
 int estaVaciaPila(const Pila *p);
 int estaLlenaPila(const Pila *p);
@@ -28,9 +24,7 @@ int push(Pila *p, int valor);
 int pop(Pila *p, int *salida);
 void imprimirPila(const Pila *p);
 
-// =========================
 // Prototipos Cola
-// =========================
 void inicializarCola(Cola *c);
 int estaVaciaCola(const Cola *c);
 int estaLlenaCola(const Cola *c);
@@ -38,9 +32,7 @@ int enqueue(Cola *c, int valor);
 int dequeue(Cola *c, int *salida);
 void imprimirCola(const Cola *c);
 
-// =========================
 // Implementacion Pila
-// =========================
 void inicializarPila(Pila *p) {
     p->tope = -1;
 }
@@ -78,9 +70,7 @@ void imprimirPila(const Pila *p) {
     printf("\n");
 }
 
-// =========================
 // Implementacion Cola (lineal con indices y conteo)
-// =========================
 void inicializarCola(Cola *c) {
     c->frente = 0;
     c->final = -1;
@@ -126,9 +116,7 @@ void imprimirCola(const Cola *c) {
     printf("\n");
 }
 
-// =========================
 // Utilidades de entrada
-// =========================
 static int leerEntero(const char *prompt) {
     int x;
     printf("%s", prompt);
@@ -140,9 +128,7 @@ static int leerEntero(const char *prompt) {
     return x;
 }
 
-// =========================
 // main
-// =========================
 int main(void) {
     // Paso 1: Crear una pila
     Pila pila;
