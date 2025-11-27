@@ -1,0 +1,6 @@
+Preguntas (A)
+1. ¿Por qué es más fácil eliminar un nodo intermedio en una lista doblemente
+ligada que en una lista simple?
+2. ¿Qué sucede si se olvida actualizar alguno de los punteros anterior o
+siguiente?
+3. ¿En qué escenarios prácticos se usa una lista doblemente ligada?
