@@ -1,0 +1,5 @@
+Preguntas
+1. ¿Qué ventaja tiene la lista circular frente a la simple?
+
+2. ¿Qué error puede causar un bucle infinito en una lista circular?
+3. ¿Qué estructuras o programas del mundo real se basan en listas circulares?
