@@ -1,5 +1,8 @@
 Preguntas
 1. ¿Qué ventaja tiene la lista circular frente a la simple?
-
+la principal ventaja es la naturalidad y simplicidad para modelar y recorrer estructuras cíclicas, junto con inserciones/eliminaciones eficientes al principio/fin cuando se mantiene un puntero adecuado, reduciendo casos especiales respecto a una lista simple lineal.
 2. ¿Qué error puede causar un bucle infinito en una lista circular?
+Uso del 100% de la CPU: el proceso consume continuamente tiempo de CPU sin avanzar ni terminar.
+Fugas de recursos: si dentro del bucle se realizan asignaciones de memoria, escritura de logs o acceso a archivos/red, puedes agotar memoria o descriptores.
 3. ¿Qué estructuras o programas del mundo real se basan en listas circulares?
+Estructuras de navegación circular, Sistemas embbebidos, sistemas de turnos.
