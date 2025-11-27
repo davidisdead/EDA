@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-// Definición del nodo para lista circular simple
+// Definicion del nodo para lista circular simple
 struct Nodo {
     int dato;
     struct Nodo *siguiente;
@@ -16,7 +16,7 @@ void insertarInicioCircular(Nodo **cabeza, Nodo **ultimo, int valor);
 void eliminarCircular(Nodo **cabeza, Nodo **ultimo, int valor);
 void liberarListaCircular(Nodo **cabeza, Nodo **ultimo);
 
-// Muestra la lista circular deteniéndose cuando vuelve a la cabeza
+// Muestra la lista circular deteniendose cuando vuelve a la cabeza
 void mostrarCircular(Nodo *cabeza) {
     if (cabeza == NULL) {
         printf("Lista vacia\n");
@@ -40,7 +40,7 @@ void insertarInicioCircular(Nodo **cabeza, Nodo **ultimo, int valor) {
     nuevo->dato = valor;
 
     if (*cabeza == NULL) {
-        // Primer nodo: se apunta a sí mismo
+        // Primer nodo: se apunta a si mismo
         nuevo->siguiente = nuevo;
         *cabeza = nuevo;
         *ultimo = nuevo;
@@ -117,7 +117,7 @@ int main(void) {
     Nodo *ultimo = NULL;
 
     int n;
-    printf("¿Cuantos valores desea insertar? ");
+    printf("Cuantos valores desea insertar? ");
     if (scanf("%d", &n) != 1 || n < 0) {
         fprintf(stderr, "Entrada invalida.\n");
         return EXIT_FAILURE;
