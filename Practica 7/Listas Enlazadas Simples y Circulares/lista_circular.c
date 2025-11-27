@@ -160,3 +160,4 @@ int main(void) {
     liberarListaCircular(&cabeza, &ultimo);
     return 0;
 }
+
