@@ -1,0 +1,8 @@
+1. ¿Qué diferencia tiene el deque frente a la cola circular normal?
+Cola circular: inserta por el final (enqueue) y elimina por el frente (dequeue). Es FIFO estricta.
+Deque: inserta y elimina por ambos extremos. Puede comportarse como FIFO o como pila (LIFO) según qué extremos uses.
+2. ¿Qué operaciones permiten simular tanto FIFO como LIFO?
+FIFO: Extremos opuestos.
+LIFO: Mismo extremo.
+3. Investiga que aplicaciones prácticas tiene deque.
+Ventana deslizante, Navegación e interfaces, Procesamiento en tiempo real.
