@@ -1,0 +1,6 @@
+1. ¿Por qué en la cola circular no se desperdician posiciones como en la cola lineal?
+Cuando final llega al último índice, el siguiente avance lo lleva de vuelta a 0. Lo mismo ocurre con frente.
+2. ¿Qué pasa cuando el índice final llega al final del arreglo?
+Cuando el índice final llega al último elemento del arreglo, en una cola circular no se “atasca” ahí. La siguiente operación de avance lo hace “envolver” (wrap-around) y volver al inicio del arreglo (posición 0).
+3. ¿Qué sucede si intentas encolar cuando la cola está llena?
+Si se intenta encolar cuando la cola está llena, la operación se rechaza y se informa el error.
