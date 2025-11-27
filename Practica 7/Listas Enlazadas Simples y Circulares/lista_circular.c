@@ -54,12 +54,6 @@ void insertarInicioCircular(Nodo **cabeza, Nodo **ultimo, int valor) {
     }
 }
 
-// Elimina un nodo con el valor dado en una lista circular
-// Reglas:
-// - Busca el nodo a eliminar y su anterior.
-// - Si es el primero (cabeza), actualizar el puntero del ultimo.
-// - Si es intermedio, enlazar su anterior con su siguiente.
-// - Liberar la memoria del nodo eliminado.
 void eliminarCircular(Nodo **cabeza, Nodo **ultimo, int valor) {
     if (cabeza == NULL || *cabeza == NULL) {
         printf("La lista esta vacia, nada que eliminar.\n");
